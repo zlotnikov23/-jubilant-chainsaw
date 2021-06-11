@@ -1,0 +1,162 @@
+* {
+  font-family: "Larsseit" "Noe Display";
+  box-sizing: border-box;
+}
+.blok {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.blok__box {
+  width: 100%;
+  max-width: 1920px;
+  padding-top: 88px;
+  background: #e5e5e5;
+}
+
+.blok__text {
+  font-weight: 400;
+  font-style: normal;
+  color: #01162752;
+  margin: auto;
+}
+.background__blok-img {
+  width: 100%;
+  max-width: 1920px;
+  background: url(../Pucture/title-bakground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  outline: 1px solid black;
+  padding: 592px;
+  margin: auto;
+}
+.bakcground__blok {
+  width: 100%;
+  max-width: 1920px;
+  /* margin: auto; */
+}
+
+.background__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1514px;
+  margin: auto;
+}
+.bakground__icons {
+  width: 60px;
+  height: 68px;
+}
+.bakground__icons-vector {
+  width: 24px;
+  height: 24px;
+  padding-right: 38px;
+  padding-top: 12px;
+}
+.background__icons-grup {
+  padding-top: 1px;
+  display: flex;
+}
+.bakground__serch-button {
+  width: 167px;
+  height: 62px;
+  background-color: #00ffff;
+  border-radius: 48px;
+  box-shadow: 5px 15px 40px #00c9e033;
+  border: none;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* .bakground__border {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 30px;
+  height: 2px;
+}
+.bakground_title {
+  width: 100%;
+  max-width: 723px;
+  padding-top: 187px;
+  padding-left: 50px;
+  margin: auto;
+}
+.bakground__title-title {
+  font-family: Noe Display;
+  font-style: normal;
+  font-weight: 900;
+  width: 100%;
+  max-width: 731px;
+  font-size: 120px;
+  line-height: 153px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 0;
+}
+.bakground__title-text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 900;
+  width: 100%;
+  max-width: 435px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-left: 87px;
+  padding-top: 14px;
+}
+.bakground__title-string {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+  max-width: 629px;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.bakground__logo-box {
+  width: 100%;
+  max-width: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 261px 31px 12px 5px;
+}
+.bakground__logo-text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 190%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.9;
+  transform: rotate(-90deg);
+}
+.bakground__logo-border {
+  background: linear-gradient(180deg, #09f4f4 0%, #00c9e0 100%);
+  border-radius: 13px;
+  width: 2px;
+  height: 80px;
+  left: 250px;
+  top: 882px;
+  margin: auto;
+}
+.bakground__log-blok {
+  display: flex;
+  justify-content: space-between;
+}
+.background__block-logo {
+  display: flex; 
+}  */
