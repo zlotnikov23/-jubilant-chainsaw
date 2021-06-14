@@ -2,49 +2,24 @@
   font-family: "Larsseit" "Noe Display";
   box-sizing: border-box;
 }
-.blok {
-  width: 100%;
-  max-width: 1920px;
-  margin: auto;
-}
 
-.blok__box {
-  width: 100%;
-  max-width: 1920px;
-  padding-top: 88px;
-  background: #e5e5e5;
-}
-
-.blok__text {
-  font-weight: 400;
-  font-style: normal;
-  color: #01162752;
-  margin: auto;
-}
 .background__blok-img {
   width: 100%;
   max-width: 1920px;
   background: url(../Pucture/title-bakground.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   outline: 1px solid black;
-  padding: 87px 250px 946px 225px;
+  padding: 120px 120px 575px;
   margin: auto;
 }
-.bakcground__blok {
-  width: 100%;
-  max-width: 1920px;
-  margin: auto;
-}
-
 .background__box {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1514px;
-  margin: auto;
 }
+
 .bakground__icons {
   width: 60px;
   height: 68px;
@@ -80,10 +55,9 @@
 }
 .bakground_title {
   width: 100%;
-  max-width: 723px;
-  padding-top: 187px;
-  padding-left: 50px;
-  margin: auto;
+  max-width: 1662px;
+  margin-top: 139px;
+  padding: 1px 4px;
 }
 .bakground__title-title {
   font-family: Noe Display;
@@ -95,21 +69,23 @@
   line-height: 153px;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin: 0;
+  text-align: center;
+  margin: auto;
 }
 .bakground__title-text {
   font-family: Larsseit;
   font-style: normal;
   font-weight: 900;
   width: 100%;
-  max-width: 435px;
+  max-width: 725px;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-left: 87px;
   padding-top: 14px;
+  text-align: center;
+  margin: auto;
 }
 .bakground__title-string {
   font-family: Larsseit;
@@ -119,6 +95,8 @@
   max-width: 629px;
   font-size: 17px;
   line-height: 150%;
+  padding-top: 50px;
   text-align: center;
   color: #ffffff;
+  margin: auto;
 }
