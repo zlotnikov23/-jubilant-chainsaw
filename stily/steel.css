@@ -22,11 +22,11 @@
   padding-right: 263px;
 }
 
-.bakground__icons {
+.background__icons {
   width: 60px;
   height: 68px;
 }
-.bakground__icons-vector {
+.background__icons-vector {
   width: 63px;
   height: 28px;
 }
@@ -35,7 +35,7 @@
   align-items: center;
   position: relative;
 }
-.bakground__serch-button {
+.background__serch-button {
   width: 167px;
   height: 62px;
   background-color: #00ffff;
@@ -51,7 +51,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.bakground__border {
+.background__border {
   background: #ffffff;
   border-radius: 16px;
   width: 30px;
@@ -60,13 +60,13 @@
   top: 31px;
   right: -10px;
 }
-.bakground_title {
+.background_title {
   width: 100%;
   max-width: 1662px;
   margin-top: 139px;
   padding: 1px 4px;
 }
-.bakground__title-title {
+.background__title-title {
   font-family: Noe Display;
   font-style: normal;
   font-weight: 900;
@@ -79,7 +79,7 @@
   text-align: center;
   margin: auto;
 }
-.bakground__title-text {
+.background__title-text {
   font-family: Larsseit;
   font-style: normal;
   font-weight: 900;
@@ -94,7 +94,7 @@
   text-align: center;
   margin: auto;
 }
-.bakground__title-string {
+.background__title-string {
   font-family: Larsseit;
   font-style: normal;
   font-weight: normal;
@@ -107,6 +107,7 @@
   color: #ffffff;
   margin: auto;
 }
+
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .background__blok-img {
     padding: 15px;
