@@ -11,13 +11,15 @@
   background-size: cover;
   background-position: center;
   outline: 1px solid black;
-  padding: 120px 120px 575px;
   margin: auto;
 }
+
 .background__box {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-left: 250px;
+  padding-right: 263px;
 }
 
 .bakground__icons {
@@ -30,6 +32,8 @@
 }
 .background__icons-grup {
   display: flex;
+  align-items: center;
+  position: relative;
 }
 .bakground__serch-button {
   width: 167px;
@@ -52,6 +56,9 @@
   border-radius: 16px;
   width: 30px;
   height: 2px;
+  position: absolute;
+  top: 31px;
+  right: -10px;
 }
 .bakground_title {
   width: 100%;
@@ -99,4 +106,12 @@
   text-align: center;
   color: #ffffff;
   margin: auto;
+}
+@media screen and (max-width: 1024px), screen and (max-width: 992px) {
+  .background__blok-img {
+    padding: 15px;
+  }
+  .background__box {
+    padding: 15px;
+  }
 }
