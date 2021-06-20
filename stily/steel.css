@@ -64,10 +64,11 @@
   width: 100%;
   max-width: 1662px;
   margin-top: 139px;
-  padding: 1px 4px;
+  margin: auto;
 }
+
 .background__title-title {
-  font-family: Noe Display;
+  font-family: "Noe Display", sans-serif;
   font-style: normal;
   font-weight: 900;
   width: 100%;
@@ -80,7 +81,7 @@
   margin: auto;
 }
 .background__title-text {
-  font-family: Larsseit;
+  font-family: "Larsseit";
   font-style: normal;
   font-weight: 900;
   width: 100%;
@@ -95,7 +96,7 @@
   margin: auto;
 }
 .background__title-string {
-  font-family: Larsseit;
+  font-family: "Larsseit";
   font-style: normal;
   font-weight: normal;
   width: 100%;
