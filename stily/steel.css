@@ -63,7 +63,7 @@
 .background_title {
   width: 100%;
   max-width: 1662px;
-  margin-top: 139px;
+  padding-top: 195px;
   margin: auto;
 }
 
@@ -112,6 +112,9 @@
   display: flex;
   justify-content: space-between;
   padding-left: 230px;
+  padding-right: 236px;
+  padding-bottom: 264px;
+  padding-top: 191px;
 }
 .background__logo {
   display: flex;
@@ -121,7 +124,7 @@
 
 .background__logo-border {
   width: 2px;
-  height: 80px;
+  height: 40px;
   background: linear-gradient(180deg, #09f4f4 0%, #00c9e0 100%);
   border-radius: 13px;
   order: 1;
@@ -129,11 +132,34 @@
   top: 68px;
   right: 7px;
 }
+.background__img-grup {
+  display: flex;
+  flex-direction: column;
+}
+.background__one-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 33px;
+}
+.background__two-img {
+  width: 16px;
+  height: 20px;
+  margin-top: 12px;
+}
+.background__tree-img {
+  width: 11px;
+  height: 20px;
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .background__blok-img {
     padding: 15px;
   }
   .background__box {
+    padding: 15px;
+  }
+  .background__logo-grup {
     padding: 15px;
   }
 }
