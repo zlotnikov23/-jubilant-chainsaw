@@ -70,7 +70,7 @@
 .background__title-title {
   font-family: "Noe Display", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   width: 100%;
   max-width: 731px;
   font-size: 120px;
@@ -108,7 +108,27 @@
   color: #ffffff;
   margin: auto;
 }
+.background__logo-grup {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 230px;
+}
+.background__logo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
+.background__logo-border {
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(180deg, #09f4f4 0%, #00c9e0 100%);
+  border-radius: 13px;
+  order: 1;
+  position: absolute;
+  top: 68px;
+  right: 7px;
+}
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .background__blok-img {
     padding: 15px;

@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'HelveticaNowDisplay';
-    src: url('HelveticaNowDisplay-BoldIta.woff2') format('woff2'),
-        url('HelveticaNowDisplay-BoldIta.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
