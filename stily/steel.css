@@ -165,6 +165,12 @@
   background-position: center;
   margin: auto;
 }
+.touristgoof__blok {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  padding-left: 359px;
+}
 
 .touristgoof__title-fons {
   font-family: "Noe Display", sans-serif;
@@ -177,7 +183,6 @@
   letter-spacing: -0.02em;
   color: #ffffff;
   text-align: center;
-  margin: auto;
 }
 .touristgoof__text-fons {
   font-family: Larsseit;
@@ -189,8 +194,22 @@
   line-height: 150%;
   letter-spacing: -0.02em;
   color: #ffffff;
+  margin-top: 16px;
 }
+.touristgoof__toswitch {
+  width: 29px;
+  height: 26px;
+  margin: 34px 39px;
+  padding: 1px;
+}
+
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
+  .touristgoof__blok-fons {
+    padding: 15px;
+  }
+  .touristgoof__blok {
+    padding: 15px;
+  }
   .background__blok-img {
     padding: 15px;
   }
