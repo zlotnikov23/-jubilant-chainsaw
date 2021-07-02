@@ -202,6 +202,9 @@
   margin: 34px 39px;
   padding: 1px;
 }
+.menu__blok ul {
+  display: flex;
+}
 
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .touristgoof__blok-fons {
