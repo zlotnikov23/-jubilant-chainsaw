@@ -155,16 +155,13 @@
 .touristgoof__blok-fons {
   width: 100%;
   max-width: 1920px;
-  border: 1px solid blue;
   background: url(../Pucture/fons\ .png);
-  /* background: #2c145f;
-  opacity: 0.3;
-  filter: blur(250px); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: auto;
 }
+
 .touristgoof__blok {
   display: flex;
   justify-content: flex-start;
@@ -202,8 +199,38 @@
   margin: 34px 39px;
   padding: 1px;
 }
-.menu__blok ul {
-  display: flex;
+
+.menu__blok {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 97px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  height: 50px;
+  padding: 0 59px;
+  text-decoration: none;
+  line-height: 50px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+ul li a:hover {
+  color: #41ead4;
 }
 
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
