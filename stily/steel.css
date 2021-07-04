@@ -245,7 +245,21 @@ ul li a:hover {
   opacity: 0.3;
   border-radius: 13px;
 }
+.landscape__blok-img {
+  width: 100%;
+  max-width: 1125px;
+  height: 633px;
+  background: url(../Pucture/joe-mania-tyAAl6r_c2U-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border-radius: 8px;
+}
 
+.landscape__blok {
+  display: flex;
+}
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .touristgoof__blok-fons {
     padding: 15px;
