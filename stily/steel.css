@@ -204,6 +204,7 @@
   width: 960px;
   margin: 0 auto;
   padding-top: 97px;
+  padding-bottom: 37px;
 }
 
 ul {
@@ -217,7 +218,7 @@ ul li {
 }
 ul li a {
   display: block;
-  height: 50px;
+  height: 70px;
   padding: 0 59px;
   text-decoration: none;
   line-height: 50px;
@@ -228,9 +229,21 @@ ul li a {
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
+  border-bottom: 2px solid#ffffff;
 }
 ul li a:hover {
   color: #41ead4;
+  border-bottom: 2px solid #41ead4;
+}
+.menu__blok-border {
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  left: 361px;
+  top: 1411px;
+  background: #ffffff;
+  opacity: 0.3;
+  border-radius: 13px;
 }
 
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
