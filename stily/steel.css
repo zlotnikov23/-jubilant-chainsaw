@@ -245,35 +245,65 @@ ul li a:hover {
   opacity: 0.3;
   border-radius: 13px;
 }
-.landscape__blok-img {
-  width: 100%;
-  max-width: 1125px;
-  height: 633px;
-  background: url(../Pucture/joe-mania-tyAAl6r_c2U-unsplash\ 1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-  border-radius: 8px;
-}
-
 .landscape__blok {
   display: flex;
+  padding-left: 478px;
+  margin-top: 129px;
+}
+.landscape__blok-grup {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.landscape__blok-img {
+  width: 486px;
+  height: 607px;
+  border-radius: 8px;
+}
+.landscape__blok-border {
+  background: #41ead4;
+  border-radius: 16px;
+  width: 172px;
+  height: 2px;
+  position: absolute;
+  top: 1794px;
+  left: 441px;
+}
+.landscape__blok-text {
+  width: 100%;
+  max-width: 265px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+.landscape__background-figure {
+  position: absolute;
+  top: 1528px;
+  color: #00ffff;
 }
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
+  .background__blok-img {
+    padding: 15px;
+  }
   .touristgoof__blok-fons {
     padding: 15px;
   }
   .touristgoof__blok {
     padding: 15px;
   }
-  .background__blok-img {
-    padding: 15px;
-  }
+
   .background__box {
     padding: 15px;
   }
   .background__logo-grup {
     padding: 15px;
+  }
+  .menu__blok {
+    padding: 15px;
+    margin: auto;
   }
 }
