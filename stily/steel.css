@@ -201,7 +201,8 @@
 }
 
 .menu__blok {
-  width: 960px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 97px;
   padding-bottom: 37px;
@@ -279,12 +280,17 @@ ul li a:hover {
   line-height: 150%;
   letter-spacing: 0.15em;
   color: #ffffff;
+  position: absolute;
+  right: 1322px;
+  top: 1826px;
 }
 .landscape__background-figure {
   position: absolute;
-  top: 1528px;
   color: #00ffff;
+  bottom: 66px;
+  right: 222px;
 }
+
 @media screen and (max-width: 1024px), screen and (max-width: 992px) {
   .background__blok-img {
     padding: 15px;
