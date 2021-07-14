@@ -18,8 +18,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-left: 250px;
-  padding-right: 263px;
+  max-width: 1596px;
+  /* padding-left: 250px;
+  padding-right: 263px; */
 }
 
 .background__icons {
@@ -111,8 +112,8 @@
 .background__logo-grup {
   display: flex;
   justify-content: space-between;
-  padding-left: 230px;
-  padding-right: 236px;
+  width: 100%;
+  max-width: 1657px;
   padding-bottom: 264px;
   padding-top: 191px;
 }
@@ -124,17 +125,18 @@
 
 .background__logo-border {
   width: 2px;
-  height: 40px;
+  height: 92px;
   background: linear-gradient(180deg, #09f4f4 0%, #00c9e0 100%);
   border-radius: 13px;
   order: 1;
   position: absolute;
   top: 68px;
-  right: 7px;
+  right: 5px;
 }
 .background__img-grup {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .background__one-img {
   width: 20px;
