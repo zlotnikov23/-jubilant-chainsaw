@@ -1,5 +1,5 @@
 * {
-  font-family: "Larsseit" "Noe Display";
+  font-family: "Larsseit", "Noe Display";
   box-sizing: border-box;
 }
 
@@ -157,12 +157,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1040px;
+  max-width: 927px;
   margin: auto;
 }
 
 .touristgoof__title-fons {
-  font-family: "Noe Display", sans-serif;
+  font-family: "Noe Display";
   font-style: normal;
   font-weight: bold;
   width: 100%;
@@ -174,7 +174,7 @@
   text-align: center;
 }
 .touristgoof__text-fons {
-  font-family: Larsseit;
+  font-family: "Larsseit";
   font-style: normal;
   font-weight: normal;
   width: 100%;
@@ -192,6 +192,48 @@
   padding: 1px;
   background: #000000;
   border: none;
+}
+.menu {
+  width: 100%;
+  max-width: 1868px;
+}
+.menu__blok {
+  padding-top: 97px;
+  padding-bottom: 37px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1048px;
+  margin: auto;
+  margin-right: 350px;
+}
+.menu__button {
+  width: 100%;
+  max-width: 149px;
+  border: none;
+  background-color: #11ffee00;
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 33px;
+}
+.menu__border {
+  width: 100%;
+  max-width: 1200px;
+  height: 2px;
+  background-color: cyan;
+  margin: auto;
+  margin-right: 230px;
+}
+ul .menu__button:hover {
+  color: #41ead4;
+  /* border-bottom: 2px solid #41ead4; */
 }
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
