@@ -233,7 +233,6 @@ ul {
 }
 ul .menu__button:hover {
   color: #41ead4;
-  /* border-bottom: 2px solid #41ead4; */
 }
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
