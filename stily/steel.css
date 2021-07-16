@@ -190,7 +190,7 @@
   height: 26px;
   margin: 34px 39px;
   padding: 1px;
-  background: #000000;
+  background-color: transparent;
   border: none;
 }
 .menu {
