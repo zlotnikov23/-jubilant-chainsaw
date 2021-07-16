@@ -18,8 +18,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1596px;
+  max-width: 1727px;
   margin: auto;
+  padding-top: 124px;
 }
 
 .background__icons {
@@ -114,7 +115,7 @@
   width: 100%;
   max-width: 1657px;
   margin: auto;
-  padding-bottom: 264px;
+  padding-bottom: 68px;
   padding-top: 191px;
 }
 .background__logo {
@@ -198,7 +199,7 @@
   max-width: 1868px;
 }
 .menu__blok {
-  padding-top: 97px;
+  padding-top: 83px;
   padding-bottom: 37px;
 }
 ul {
