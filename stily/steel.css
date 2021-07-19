@@ -235,6 +235,90 @@ ul {
 ul .menu__button:hover {
   color: #41ead4;
 }
+.landscape__blok {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-left: 350px;
+  margin-top: 129px;
+}
+.landscape__blok-grup {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.landscape__blok-img {
+  width: 486px;
+  height: 607px;
+  border-radius: 8px;
+}
+.landscape__blok-border {
+  background: #41ead4;
+  border-radius: 16px;
+  width: 172px;
+  height: 2px;
+  position: absolute;
+  top: 1794px;
+  left: 250px;
+}
+.landscape__blok-text {
+  width: 100%;
+  max-width: 265px;
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  position: absolute;
+  right: 1322px;
+  top: 1826px;
+}
+.landscape__background-figure {
+  position: absolute;
+  color: #00ffff;
+  bottom: 66px;
+  right: 222px;
+}
+.landscape__title-string {
+  margin-left: 50px;
+  width: 100%;
+  max-width: 472px;
+}
+.landscape__blok-title {
+  font-family: "Noe Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 193%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.landscape__blok-string {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.landscape__blok-stely {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.landscape__controle-text {
+  padding-bottom: 20px;
+}
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
