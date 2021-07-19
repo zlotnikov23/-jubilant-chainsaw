@@ -236,30 +236,33 @@ ul .menu__button:hover {
   color: #41ead4;
 }
 .landscape__blok {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  padding-left: 350px;
-  margin-top: 129px;
+  width: 100%;
+  max-width: 1896px;
 }
 .landscape__blok-grup {
   display: flex;
-  align-items: center;
-  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1025px;
+  margin-top: 129px;
+  margin: auto;
 }
+
 .landscape__blok-img {
   width: 486px;
   height: 607px;
   border-radius: 8px;
+  margin: 34px 6px;
+  padding: 1px;
 }
 .landscape__blok-border {
   background: #41ead4;
   border-radius: 16px;
-  width: 172px;
+  width: 299px;
   height: 2px;
   position: absolute;
-  top: 1794px;
-  left: 250px;
+  top: 1655px;
+  left: 240px;
 }
 .landscape__blok-text {
   width: 100%;
@@ -273,7 +276,7 @@ ul .menu__button:hover {
   color: #ffffff;
   position: absolute;
   right: 1322px;
-  top: 1826px;
+  top: 1688px;
 }
 .landscape__background-figure {
   position: absolute;
