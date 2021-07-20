@@ -256,13 +256,16 @@ ul .menu__button:hover {
   padding: 1px;
 }
 .landscape__blok-border {
+  position: relative;
+}
+.landscape__blok-border {
   background: #41ead4;
   border-radius: 16px;
   width: 299px;
   height: 2px;
-  position: absolute;
-  top: 1655px;
-  left: 240px;
+  position: relative;
+  bottom: 453px;
+  right: 113px;
 }
 .landscape__blok-text {
   width: 100%;
@@ -274,9 +277,9 @@ ul .menu__button:hover {
   line-height: 150%;
   letter-spacing: 0.15em;
   color: #ffffff;
-  position: absolute;
-  right: 1322px;
-  top: 1688px;
+  position: relative;
+  right: 127px;
+  bottom: 411px;
 }
 .landscape__background-figure {
   position: absolute;
@@ -318,6 +321,9 @@ ul .menu__button:hover {
   line-height: 150%;
   letter-spacing: -0.02em;
   color: #ffffff;
+}
+.landscape__blok-box {
+  position: relative;
 }
 .landscape__controle-text {
   padding-bottom: 20px;
