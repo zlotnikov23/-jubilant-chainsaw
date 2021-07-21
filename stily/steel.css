@@ -367,7 +367,28 @@ ul .menu__button:hover {
   background: #ffffff;
   border-radius: 16px;
 }
-
+.landscape__icons-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 37px;
+}
+.landscape__text-fons {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+.landscape__icons-fons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 37px;
+  flex-direction: row;
+}
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
