@@ -328,6 +328,35 @@ ul .menu__button:hover {
 .landscape__controle-text {
   padding-bottom: 20px;
 }
+.landscape__blok-button {
+  position: relative;
+  bottom: 139px;
+  left: 387px;
+}
+.landscape__button {
+  background: #000000;
+  border: none;
+  width: 44px;
+  height: 44px;
+}
+.landscape__button-fons {
+  color: #ffffff;
+  width: 282px;
+  height: 65px;
+  background: #00c9e0;
+  border-radius: 183px;
+  border: none;
+  margin-top: 34px;
+}
+.landscape__button-lans {
+  position: relative;
+  left: 259px;
+  bottom: 10px;
+  width: 30px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 16px;
+}
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
