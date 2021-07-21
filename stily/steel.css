@@ -267,6 +267,16 @@ ul .menu__button:hover {
   bottom: 453px;
   right: 113px;
 }
+.landscape__border {
+  background: #41ead4;
+  border-radius: 16px;
+  width: 14px;
+  height: 2px;
+  position: relative;
+  bottom: 448px;
+  right: 119px;
+  transform: rotate(91deg);
+}
 .landscape__blok-text {
   width: 100%;
   max-width: 265px;
@@ -357,6 +367,7 @@ ul .menu__button:hover {
   background: #ffffff;
   border-radius: 16px;
 }
+
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
