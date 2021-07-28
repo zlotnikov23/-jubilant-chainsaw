@@ -467,13 +467,11 @@ ul .menu__button:hover {
   margin-left: 330px;
 }
 .Audience__blok {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
   border: 1px solid red;
-}
-.Audience__user-blok {
-  width: 120px;
-  height: 120px;
 }
 
 .Audience__button-fons {
@@ -495,6 +493,10 @@ ul .menu__button:hover {
   background: #ffffff;
   border-radius: 16px;
 }
+.Audience__img {
+  background: #c4c4c4;
+}
+
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
