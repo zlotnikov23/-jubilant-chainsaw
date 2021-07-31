@@ -405,13 +405,12 @@ ul .menu__button:hover {
   max-width: 1021px;
   display: flex;
   justify-content: space-around;
-  outline: 1px solid beige;
+
   margin: auto;
 }
 .Audience__box {
   width: 100%;
   max-width: 348px;
-  outline: 1px solid beige;
 }
 
 .Audience__box-user {
@@ -420,7 +419,6 @@ ul .menu__button:hover {
   height: 50%;
   display: flex;
   flex-wrap: wrap;
-  outline: 1px solid beige;
 }
 .Audience__img1 {
   position: relative;
@@ -430,7 +428,6 @@ ul .menu__button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  outline: 1px solid beige;
 }
 .Audience__img2 {
   position: relative;
@@ -440,7 +437,6 @@ ul .menu__button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  outline: 1px solid beige;
 }
 .Audience__img3 {
   position: relative;
@@ -450,7 +446,6 @@ ul .menu__button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  outline: 1px solid beige;
 }
 .Audience__img4 {
   position: relative;
@@ -460,7 +455,6 @@ ul .menu__button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  outline: 1px solid beige;
 }
 
 .Audience__img1:hover {
@@ -475,16 +469,16 @@ ul .menu__button:hover {
 .Audience__img4:hover {
   background: #4c6085;
 }
-.Audience__img1:hover.Audience__user-blok {
+.Audience__img1:hover .Audience__user-blok {
   display: block;
 }
-.Audience__img2:hover.Audience__user-blok {
+.Audience__img2:hover .Audience__user-blok {
   display: block;
 }
-.Audience__img3:hover.Audience__user-blok {
+.Audience__img3:hover .Audience__user-blok {
   display: block;
 }
-.Audience__img4:hover.Audience__user-blok {
+.Audience__img4:hover .Audience__user-blok {
   display: block;
 }
 .Audience__user-blok {
@@ -497,6 +491,7 @@ ul .menu__button:hover {
   left: -25px;
   border-radius: 8px;
 }
+
 .Audience__title {
   font-family: Noe Display;
   font-style: normal;
