@@ -401,79 +401,64 @@ ul .menu__button:hover {
   transform: rotate(91deg);
 }
 .Audience__blok-grup {
+  width: 100%;
+  max-width: 1021px;
   display: flex;
+  justify-content: space-around;
+  outline: 1px solid beige;
+  margin: auto;
 }
 .Audience__box {
   width: 100%;
-  max-width: 1200px;
+  max-width: 348px;
+  outline: 1px solid beige;
+}
+
+.Audience__box-user {
+  width: 100%;
+  max-width: 536px;
+  height: 317px;
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid beige;
 }
 .Audience__title {
-  font-family: "Noe Display";
+  font-family: Noe Display;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
   line-height: 110%;
-  text-align: center;
   color: #ffffff;
-  margin-left: 145px;
-}
-.Audience__text-title {
-  width: 100%;
-  max-width: 330px;
-  font-family: "Larsseit";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 310%;
-  color: #ffffff;
-  text-align: center;
-  margin-left: 326px;
+  margin-bottom: 12px;
 }
 
-.Audience__title-text {
-  width: 100%;
-  max-width: 329px;
-  font-family: "Larsseit";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-  color: #ffffff;
-  margin-top: 9px;
-  margin-left: 327px;
-}
-.Audience__string {
-  width: 100%;
-  max-width: 366px;
-  font-family: "Larsseit";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 150%;
-  color: #ffffff;
-  margin: auto;
-  margin-right: 138px;
-}
 .Audience__text {
-  width: 100%;
-  max-width: 366px;
-  font-family: "Larsseit";
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.Audience__text-fons {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+p {
+  font-family: Larsseit;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 150%;
   color: #ffffff;
-  margin-top: 20px;
-  margin-left: 330px;
+  margin-bottom: 12px;
 }
-.Audience__blok {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1200px;
-  border: 1px solid red;
-}
-
 .Audience__button-fons {
   color: #ffffff;
   width: 282px;
@@ -481,8 +466,6 @@ ul .menu__button:hover {
   background: #00c9e0;
   border-radius: 183px;
   border: none;
-  margin-top: 34px;
-  margin-left: 337px;
 }
 .Audience__button-lans {
   position: relative;
@@ -492,9 +475,6 @@ ul .menu__button:hover {
   height: 2px;
   background: #ffffff;
   border-radius: 16px;
-}
-.Audience__img {
-  background: #c4c4c4;
 }
 
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
