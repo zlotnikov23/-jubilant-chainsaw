@@ -490,8 +490,15 @@ ul .menu__button:hover {
   bottom: 50px;
   left: -25px;
   border-radius: 8px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 150%;
 }
-
+.Audience__user-string {
+  color: #00ffff;
+}
 .Audience__title {
   font-family: Noe Display;
   font-style: normal;
