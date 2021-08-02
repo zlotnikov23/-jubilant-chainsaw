@@ -402,7 +402,7 @@ ul .menu__button:hover {
 }
 .Audience__blok-grup {
   width: 100%;
-  max-width: 1021px;
+  max-width: 1077px;
   display: flex;
   justify-content: space-around;
 
@@ -415,59 +415,67 @@ ul .menu__button:hover {
 
 .Audience__box-user {
   width: 100%;
-  max-width: 53%;
-  height: 50%;
+  max-width: 670px;
+  height: 607px;
   display: flex;
   flex-wrap: wrap;
 }
 .Audience__img1 {
   position: relative;
-  width: 270px;
+  width: 330px;
   height: 300px;
-  background: url(../icons/user1.svg);
+  background: url(https://cdn.pixabay.com/photo/2015/07/20/07/02/man-852427__480.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 .Audience__img2 {
   position: relative;
-  width: 270px;
+  width: 330px;
   height: 300px;
-  background: url(../icons/user2.svg);
+  background: url(https://media.istockphoto.com/photos/pleased-young-redhead-woman-with-a-beaming-smile-picture-id1251307630?b=1&k=6&m=1251307630&s=170667a&w=0&h=wP_p8LtXUpmMHtRKq6Y3NPJWfoVc5sZlrs0Irpxn7NU=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 .Audience__img3 {
   position: relative;
-  width: 270px;
+  width: 330px;
   height: 300px;
-  background: url(../icons/user3.svg);
+  background: url(https://media.istockphoto.com/photos/happy-relaxed-confident-young-businesswoman-picture-id1225033312?b=1&k=6&m=1225033312&s=170667a&w=0&h=KRL6FMEuJgOxvqDuLPkP5Ln7Dj_9KDE-90UFY5oEkL0=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 .Audience__img4 {
   position: relative;
-  width: 270px;
+  width: 330px;
   height: 300px;
-  background: url(../icons/user4.svg);
+  background: url(https://media.istockphoto.com/photos/merry-young-woman-celebrating-and-dancing-picture-id1225155795?s=612x612);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
 .Audience__img1:hover {
-  background: #4c6085;
+  background: url(https://cdn.pixabay.com/photo/2015/07/20/07/02/man-852427__480.jpg);
+  background-position: center;
+  opacity: 0.5;
 }
 .Audience__img2:hover {
-  background: #4c6085;
+  background: url(https://media.istockphoto.com/photos/pleased-young-redhead-woman-with-a-beaming-smile-picture-id1251307630?b=1&k=6&m=1251307630&s=170667a&w=0&h=wP_p8LtXUpmMHtRKq6Y3NPJWfoVc5sZlrs0Irpxn7NU=);
+  opacity: 0.5;
+  background-position: center;
 }
 .Audience__img3:hover {
-  background: #4c6085;
+  background: url(https://media.istockphoto.com/photos/happy-relaxed-confident-young-businesswoman-picture-id1225033312?b=1&k=6&m=1225033312&s=170667a&w=0&h=KRL6FMEuJgOxvqDuLPkP5Ln7Dj_9KDE-90UFY5oEkL0=);
+  opacity: 0.5;
+  background-position: center;
 }
 .Audience__img4:hover {
-  background: #4c6085;
+  background: url(https://media.istockphoto.com/photos/merry-young-woman-celebrating-and-dancing-picture-id1225155795?s=612x612);
+  opacity: 0.5;
+  background-position: center;
 }
 .Audience__img1:hover .Audience__user-blok {
   display: block;
