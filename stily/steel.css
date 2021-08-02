@@ -463,7 +463,7 @@ ul .menu__button:hover {
   opacity: 0.5;
 }
 .Audience__img2:hover {
-  background: url(https://media.istockphoto.com/photos/pleased-young-redhead-woman-with-a-beaming-smile-picture-id1251307630?b=1&k=6&m=1251307630&s=170667a&w=0&h=wP_p8LtXUpmMHtRKq6Y3NPJWfoVc5sZlrs0Irpxn7NU=);
+  background-color: url(https://media.istockphoto.com/photos/pleased-young-redhead-woman-with-a-beaming-smile-picture-id1251307630?b=1&k=6&m=1251307630&s=170667a&w=0&h=wP_p8LtXUpmMHtRKq6Y3NPJWfoVc5sZlrs0Irpxn7NU=);
   opacity: 0.5;
   background-position: center;
 }
@@ -493,10 +493,10 @@ ul .menu__button:hover {
   display: none;
   text-align: center;
   position: absolute;
-  background-color: white;
+  background-color: #ffffff;
   padding: 15px;
   bottom: 50px;
-  left: -25px;
+  left: 1px;
   border-radius: 8px;
   font-family: Larsseit;
   font-style: normal;
@@ -504,6 +504,7 @@ ul .menu__button:hover {
   font-size: 15px;
   line-height: 150%;
 }
+
 .Audience__user-string {
   color: #00ffff;
 }
