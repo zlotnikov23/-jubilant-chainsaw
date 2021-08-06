@@ -543,7 +543,7 @@ p {
   font-size: 18px;
   line-height: 150%;
   color: #ffffff;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 .audience__button-fons {
   color: #ffffff;
@@ -562,7 +562,106 @@ p {
   background: #ffffff;
   border-radius: 16px;
 }
+.user__calls-box {
+  width: 100%;
+  max-width: 1680px;
+  background: #011627;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 225px;
+}
 
+.user__calls-line {
+  position: relative;
+  width: 2px;
+  height: 80px;
+  left: 800px;
+  top: -32px;
+  background: #09f4f4;
+  border-radius: 13px;
+}
+.user__calls-basementline {
+  position: relative;
+  width: 2px;
+  height: 80px;
+  left: 810px;
+  top: 1401px;
+  background: #09f4f4;
+  border-radius: 13px;
+}
+.user__calls-title {
+  font-family: Noe Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+}
+.user__string-title {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 23px;
+  margin-bottom: 42px;
+}
+.user__calls-blocky {
+  width: 100%;
+  max-width: 1044px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px 24px;
+  margin: auto;
+}
+.user__calls-block {
+  background-color: #02223b;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 24px;
+  grid-auto-rows: minmax(511px, auto);
+  padding: 75px 74px 0px 102px;
+}
+.user__calls-string {
+  width: 100%;
+  max-width: 304px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 190%;
+  color: #ffffff;
+}
+.user__string-blok {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 190%;
+  color: #ffffff;
+}
+.user__calls-contral {
+  width: 100%;
+  max-width: 443px;
+}
+.user__calls-user {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.user__calls-text {
+  width: 100%;
+  max-width: 161px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+  color: #ffffff;
+  margin-top: 10px;
+}
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
