@@ -416,10 +416,10 @@ ul .menu__button:hover {
 .audience__box-user {
   width: 100%;
   max-width: 670px;
-  height: 607px;
   display: flex;
   flex-wrap: wrap;
 }
+
 .audience__img1 {
   position: relative;
   width: 330px;
@@ -460,21 +460,22 @@ ul .menu__button:hover {
 .audience__img1:hover {
   background: url(https://cdn.pixabay.com/photo/2015/07/20/07/02/man-852427__480.jpg);
   background-position: center;
-  opacity: 0.5;
+  background-color: rgb(0, 244, 244, 0.5);
 }
 .audience__img2:hover {
   background-color: url(https://media.istockphoto.com/photos/pleased-young-redhead-woman-with-a-beaming-smile-picture-id1251307630?b=1&k=6&m=1251307630&s=170667a&w=0&h=wP_p8LtXUpmMHtRKq6Y3NPJWfoVc5sZlrs0Irpxn7NU=);
-  opacity: 0.5;
+  background-color: rgb(0, 244, 244, 0.5);
   background-position: center;
 }
 .audience__img3:hover {
   background: url(https://media.istockphoto.com/photos/happy-relaxed-confident-young-businesswoman-picture-id1225033312?b=1&k=6&m=1225033312&s=170667a&w=0&h=KRL6FMEuJgOxvqDuLPkP5Ln7Dj_9KDE-90UFY5oEkL0=);
-  opacity: 0.5;
+  background-color: rgb(0, 244, 244, 0.5);
   background-position: center;
 }
+
 .audience__img4:hover {
   background: url(https://media.istockphoto.com/photos/merry-young-woman-celebrating-and-dancing-picture-id1225155795?s=612x612);
-  opacity: 0.5;
+  background-color: rgb(0, 244, 244, 0.5);
   background-position: center;
 }
 .audience__img1:hover .audience__user-blok {
@@ -496,7 +497,7 @@ ul .menu__button:hover {
   background-color: #ffffff;
   padding: 15px;
   bottom: 50px;
-  left: 1px;
+  left: -31px;
   border-radius: 8px;
   font-family: Larsseit;
   font-style: normal;
@@ -536,12 +537,20 @@ ul .menu__button:hover {
   color: #ffffff;
   margin-bottom: 38px;
 }
-p {
+.user__calls-stri {
   font-family: Larsseit;
   font-style: normal;
-  font-weight: 300;
+  font-weight: lighter;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 190%;
+  color: #ffffff;
+}
+.user__calls-strione {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 190%;
   color: #ffffff;
   margin-bottom: 25px;
 }
@@ -623,7 +632,9 @@ p {
   grid-template-columns: 1fr 10fr;
   grid-gap: 24px;
   grid-auto-rows: minmax(511px, auto);
-  padding: 75px 74px 0px 102px;
+  padding: 75px 74px 0px 37px;
+  width: 100%;
+  max-width: 536px;
 }
 .user__calls-string {
   width: 100%;
@@ -631,9 +642,10 @@ p {
   font-family: Larsseit;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 190%;
   color: #ffffff;
+  margin-bottom: 25px;
 }
 .user__string-blok {
   font-family: Larsseit;
@@ -645,7 +657,7 @@ p {
 }
 .user__calls-contral {
   width: 100%;
-  max-width: 443px;
+  max-width: 387px;
 }
 .user__calls-user {
   display: grid;
