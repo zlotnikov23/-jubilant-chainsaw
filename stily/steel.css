@@ -317,7 +317,7 @@ ul .menu__button:hover {
 .landscape__blok-stely {
   font-family: "Larsseit";
   font-style: normal;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 17px;
   line-height: 150%;
   color: #ffffff;
@@ -528,6 +528,23 @@ ul .menu__button:hover {
   color: #ffffff;
   margin-bottom: 12px;
 }
+.audience__text-blok {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.audience__text-box {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
 .audience__text-fons {
   font-family: Larsseit;
   font-style: normal;
@@ -625,6 +642,7 @@ ul .menu__button:hover {
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px 24px;
   margin: auto;
+  margin-bottom: 60px;
 }
 .user__calls-block {
   background-color: #02223b;
@@ -674,6 +692,34 @@ ul .menu__button:hover {
   color: #ffffff;
   margin-top: 10px;
 }
+.user__calls-title {
+  font-family: Noe Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.user__calls-title_text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.07em;
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 60px;
+}
+.user__calls-text_blok {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
