@@ -724,10 +724,10 @@ ul .menu__button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
   grid-gap: 24px;
-
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 65px;
 }
 
 .communication__title {
@@ -887,6 +887,26 @@ ul .menu__button:hover {
   max-width: 99px;
   margin: 5px 156px;
 }
+.communication__release-block {
+  width: 100%;
+  max-width: 332px;
+  margin: auto;
+}
+
+.communication__release-text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.communication__icons {
+  margin-left: 140px;
+}
+
 @media screen and (max-width: 1024px), screen and(max-width:992px) {
   .background__blok-img {
     padding: 15px;
