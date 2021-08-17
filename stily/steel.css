@@ -730,6 +730,9 @@ ul .menu__button:hover {
   margin-bottom: 65px;
 }
 
+.communication__limitation-img {
+  margin-bottom: 45px;
+}
 .communication__title {
   font-family: Larsseit;
   font-style: normal;
@@ -737,100 +740,8 @@ ul .menu__button:hover {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  text-align: center;
   margin-top: 12px;
   margin-bottom: 22px;
-}
-.communication__besmentlin {
-  position: relative;
-  width: 1px;
-  height: 50px;
-  left: 88px;
-  top: -18px;
-  transform: rotate(270deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-one {
-  position: relative;
-  width: 1px;
-  height: 50px;
-  left: 180px;
-  top: -18px;
-  transform: rotate(270deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-down {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 115px;
-  top: -48px;
-  transform: rotate(122deg);
-  background: #09f4f4;
-}
-
-.communication__besmentlin-vertically {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 116px;
-  top: -47px;
-  transform: rotate(239deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-top {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 119px;
-  top: -53px;
-  transform: rotate(54deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-vertically_down {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 121px;
-  top: -61px;
-  transform: rotate(135deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-ver {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 198px;
-  top: -48px;
-  transform: rotate(234deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-dow {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 199px;
-  top: -49px;
-  transform: rotate(298deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-tops {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 203px;
-  top: -55px;
-  transform: rotate(54deg);
-  background: #09f4f4;
-}
-.communication__besmentlin-vertically_dow {
-  position: relative;
-  width: 2px;
-  height: 5px;
-  left: 203px;
-  top: -63px;
-  transform: rotate(135deg);
-  background: #09f4f4;
 }
 .communication__blok-text {
   font-family: Larsseit;
@@ -861,17 +772,7 @@ ul .menu__button:hover {
   color: #ffffff;
   margin-bottom: 20px;
 }
-.communication__limitation-vision {
-  width: 100%;
-  max-height: 9px;
-  margin-bottom: 23px;
-}
-.communication__text {
-  padding-left: 64px;
-}
-.communication__text-limitation {
-  margin-left: 62px;
-}
+
 .communication__text-contribute {
   font-family: Larsseit;
   font-style: normal;
@@ -885,7 +786,6 @@ ul .menu__button:hover {
   justify-content: space-between;
   width: 100%;
   max-width: 99px;
-  margin: 5px 156px;
 }
 .communication__release-block {
   width: 100%;
