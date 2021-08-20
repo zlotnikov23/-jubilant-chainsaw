@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1727px;
+  max-width: 1309px;
   margin: auto;
   padding-top: 124px;
 }
@@ -601,7 +601,7 @@ ul .menu__button:hover {
   position: relative;
   width: 2px;
   height: 80px;
-  left: 800px;
+  left: 50%;
   top: -32px;
   background: #09f4f4;
   border-radius: 13px;
@@ -610,7 +610,7 @@ ul .menu__button:hover {
   position: relative;
   width: 2px;
   height: 80px;
-  left: 810px;
+  left: 50%;
   top: 1812px;
   background: #09f4f4;
   border-radius: 13px;
